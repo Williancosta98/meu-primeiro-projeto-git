@@ -1,0 +1,175 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-left: 76px;
+    margin-top: 44px;
+    margin-bottom: 144px;
+    color: #989D9C;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+a {
+    margin-right: 20px;
+}
+
+a:active {
+    color: #4682B4;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+.button-menu {
+    width: 130px;
+    height: 41px;
+    background-color: #665ae1;
+    color: #FFF;
+    font-size: 24px;
+    font-size: 24px;
+    font-weight: 600;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+.button-menu:active {
+    opacity: 0.8;
+}
+
+section {
+    margin-bottom: 183px;
+}
+
+.logo-image {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+}
+
+.container-right {
+    display: inline-block;
+    margin: 138px 148px 0 86px;
+}
+
+.container-left {
+    display: inline-block;
+}
+
+h1 {
+    width: 513px;
+    color: #515151;
+    font-size: 100px;
+    font-weight: 900;
+    height: 122px;
+}
+
+h2 {
+    color: #515151;
+    font-size: 58px;
+    font-weight: 500;
+    width: 448px;
+    height: 71px;
+}
+
+p {
+    width: 515px;
+    height: 87px;
+    color: #848484;
+    font-size: 24px;
+    font-weight: 400px;
+    margin-bottom: 65px;
+    margin-top: 40px;
+}
+
+.bottom-button {
+    width: 239px;
+    height: 64px;
+    border-radius: 20.5px;
+    background: #ADFF00;
+    color: #000;
+    font-size: 28px;
+    margin-top: 65px;
+    cursor: pointer;
+    border: none;
+    line-height: normal;
+    font-weight: bolder
+}
+
+.bottom-button:active {
+    background-color: #98FB98;
+}
+
+.bottom-button:hover {
+    opacity: 0.8;
+}
+
+@media only screen and (max-device-width: 900px) {
+
+    .container-main {
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+        display: block;
+    }
+
+    header {
+        display: none;
+    }
+
+    p {
+        display: none;
+    }
+
+    h2 {
+        
+        color: #515151;
+        font-size: 30px;
+        font-weight: 500;
+        position: relative;
+        margin-left: -115px;
+    }
+
+    .logo-image {
+        width: 354px;
+        height: 317px;
+        position: relative;
+        margin-left: 20px;
+        margin-top: 135px;
+        margin-bottom: -310px;
+    }
+
+
+    h1 {
+        width: 263px;
+        height: 52px;
+        color: #515151;
+        font-size: 50px;
+        font-weight: 900px;
+        margin-left: -13px;
+    }
+
+    .container-right {
+
+        position: relative;
+        margin-right: 100px;
+        display: block;
+        text-align: center;
+    }
+
+.bottom-button{
+    margin-bottom: 100px;
+    margin-top: 0;
+}
+
+
+
+}
